@@ -1,5 +1,1 @@
-AddDefaultCharset UTF-8
 
-RewriteRule ^about?$ about.php [NC, L]
-
-ErrorDocument 404 /404.php

@@ -17,7 +17,7 @@
     }
 
     $to = 'ivanigorolenyk@gmail.com';
-    $subject = "=?utf-8?B?".base_encode('Заголовок сообщения')."?=";
+    $subject = 'Заголовок сообщения';
     $headers = "From: $email\r\nReplay-to: $email\r\nContent-
     type: text/html;charset=utf-8\r\n";
     mail ($to, $subject, $message, $headers);

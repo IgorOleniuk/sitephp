@@ -18,8 +18,7 @@
 
     $to = 'ivanigorolenyk@gmail.com';
     $subject = 'Заголовок сообщения';
-    $headers = "From: $email\r\nReplay-to: $email\r\nContent-
-    type: text/html;charset=utf-8\r\n";
+    $headers = "From: $email\r\nReplay-to: $email\r\n";
     mail ($to, $subject, $message, $headers);
     header ('Location: /about.php');
 
